@@ -1,0 +1,76 @@
+.todo_container{
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 3px 5px #E3E5E7;
+    width: fit-content;
+    position: fixed;
+    left: 40%;
+    top: 25%;
+    border-radius: 5px;
+    background-color: white;
+    height: 150;
+}
+
+.todo_container label {
+    font-size: 22px;
+    font-style: 'MuseoModerno', cursive;
+    color: #004ba0;
+}
+
+.todo_container form {
+    margin-top: 17px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+}
+
+.todo_container input{
+    margin-right: 4px;
+    border: 1px solid;;
+    box-shadow: 1px 3px #E3E5E7;
+    padding: 5px;
+    width: 200px;
+}
+
+.todo_container button{
+    background-color: #004ba0;
+    border: none;
+    color: white;
+    width: max-content;
+    cursor: pointer;
+}
+
+.todo_items{
+    list-style: none;
+    font-size: 18px;
+    margin-left: 0;
+    padding-left:0 ;
+}
+
+.todo_item{
+    margin-top: 4px;
+    margin-left: 0;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 15;
+    width: 300px;
+}
+
+#dlt-btn{
+    width: max-content;
+    background-color: #c62828;
+    border: none;
+    color: white;
+    float: right;
+    width: 70px;
+    cursor: pointer;
+}
+
+#rmv-all{
+    width: fit-content;
+    height: 22px;
+    cursor: pointer;
+}
+
+
+
