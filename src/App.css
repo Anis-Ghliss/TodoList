@@ -4,8 +4,8 @@
     box-shadow: 3px 5px #E3E5E7;
     width: fit-content;
     position: fixed;
-    left: 40%;
-    top: 25%;
+    left: 15vw;
+    top: 15vw;
     border-radius: 5px;
     background-color: white;
     height: 150;
@@ -64,6 +64,7 @@
     float: right;
     width: 70px;
     cursor: pointer;
+    align-items: center;
 }
 
 #rmv-all{

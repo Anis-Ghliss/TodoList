@@ -34,8 +34,10 @@ class Todo extends React.Component{
 
         const todo = [...this.state.todo]
         for(let i=0 ; i<todo.length;i++) {
-            if (i===id){
+            if (i===id && todo[i].done === false){
                 todo[i].done = true
+            }else{
+                todo[i].done = false
             }
         }
         this.setState({
